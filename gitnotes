@@ -1,0 +1,2 @@
+commit -m "updated .bashrc"
+git push -u origin master

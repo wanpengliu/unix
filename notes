@@ -5,3 +5,6 @@ d -15 file | tail -n +4
 
 ls -x /etc 
 cross the screen
+
+ls -R /etc
+structure of the directory and all sub directory 

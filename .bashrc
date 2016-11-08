@@ -10,6 +10,7 @@ alias ll="ls -alrt"
 alias h=history
 alias gitpush="git push -u origin master"
 alias gitcommit="git commit -a -m \"message\""
+alias ls="ls -x"
 
 
 export PATH=.:$PATH

@@ -32,3 +32,6 @@ awk
 
 awk '{print $5}'
 sar -r | grep -i average | awk '{print $4}'
+
+
+

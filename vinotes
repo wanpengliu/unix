@@ -34,3 +34,5 @@ run command without leaving vi
 ---------------------------------
 : 4,10w newfile 
 copy between line 4 to 10 and paste to a new file called newfile
+
+

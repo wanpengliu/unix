@@ -26,3 +26,9 @@ set +o noclobber
 tr : , <passwd >passwd2
 pass pass file to tr and redirect the result to passwd2
 if both use passwd, then >passwd will be executed first and wipe the file completely
+
+
+awk
+
+awk '{print $5}'
+sar -r | grep -i average | awk '{print $4}'

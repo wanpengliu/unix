@@ -21,3 +21,16 @@ p - past ( works with dd as well as yy )
 yw - copy word
 yy - copy one line
 2yy - copy 2 lines
+
+
+---------------------------------
+: ! command 
+run command without leaving vi 
+
+!! it can bring the command result back and insert intot the file
+
+: sh  when finish type exit
+
+---------------------------------
+: 4,10w newfile 
+copy between line 4 to 10 and paste to a new file called newfile

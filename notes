@@ -35,4 +35,7 @@ sar -r | grep -i average | awk '{print $4}'
 
 grep -l finds works in file and return file name 
 
+!! - last command
+!V - last v command
 
+fc -l

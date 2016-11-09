@@ -38,3 +38,13 @@ copy between line 4 to 10 and paste to a new file called newfile
 g/wordtosearch/p - global search for a word and print them out
 
 g/wordtosearc[hH]/p
+
+:s/coyp/copy/g -- replace all occurencies coyp with copy on the current line 
+
+:s/coyp/copy/ -- replace first occurance of coyp with copy on current line
+
+:%s/yak/hippo/g -- global search and replace yak with hippo
+
+1,15s/yak/hippo/g -- replace between line 1-15, s-standards for search, yak to be searched g - replace all, without g - first occurance on each line
+
+

@@ -39,3 +39,6 @@ grep -l finds works in file and return file name
 !V - last v command
 
 fc -l
+
+hard link is normally for same disk
+soft link is normally for differnt disk mount

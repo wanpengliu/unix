@@ -50,3 +50,8 @@ g/wordtosearc[hH]/p
 set nomagic -- ignore regular expression
 
 set list -- display all end of line 
+
+
+sed -n will suppress output completely
+
+sed -n '9s/banana/apple/p' wordfile -- with /p it will print only the modified lines

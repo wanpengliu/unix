@@ -1,4 +1,0 @@
-git commit -m "updated .bashrc"
-git push -u origin master
-git add [filename]
-git commit  -a -m "message"

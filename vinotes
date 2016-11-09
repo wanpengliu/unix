@@ -47,4 +47,4 @@ g/wordtosearc[hH]/p
 
 1,15s/yak/hippo/g -- replace between line 1-15, s-standards for search, yak to be searched g - replace all, without g - first occurance on each line
 
-
+set nomagic

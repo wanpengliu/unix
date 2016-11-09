@@ -42,5 +42,7 @@ fc -l
 
 hard link is normally for same disk
 	can use relative path
+	doesn't work on directory
 soft link is normally for differnt disk mount
 	must use absoluate path
+	works on directory as well

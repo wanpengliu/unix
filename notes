@@ -41,4 +41,6 @@ grep -l finds works in file and return file name
 fc -l
 
 hard link is normally for same disk
+	can use relative path
 soft link is normally for differnt disk mount
+	must use absoluate path
